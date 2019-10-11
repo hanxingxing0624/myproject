@@ -18,6 +18,6 @@ public class AOPConfigTest {
     public void test01() {
         MathCalcuator bean = applicationContext.getBean(MathCalcuator.class);
         int div = bean.div(1, 1);
-        System.out.println(div);
+        System.out.println(div+"111");
     }
 }
